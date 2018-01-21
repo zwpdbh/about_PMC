@@ -1,0 +1,1 @@
+cmd_/home/hzy/amd15h_pmc/amd15h_pmc.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-2.6.32-41-server/scripts/module-common.lds --build-id -o /home/hzy/amd15h_pmc/amd15h_pmc.ko /home/hzy/amd15h_pmc/amd15h_pmc.o /home/hzy/amd15h_pmc/amd15h_pmc.mod.o
